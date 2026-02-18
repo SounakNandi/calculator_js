@@ -1,0 +1,33 @@
+.maindiv {
+    background:     #FFFFFF;
+    color:          #7A8287;
+}
+.buttonsdiv {
+    background:     #e6e6e6;
+}
+.buttonclass{
+    background:     #cccccc;
+    color:          #212327;
+}
+#buttonequal{
+    background:     #00cc00;
+}
+#buttonac, #buttondel, #buttonmodulus, #buttondivide, 
+#buttonmultiply, #buttonminus, #buttonplus {
+    background:     #F34811;
+}
+#equationbox{
+    color:          #353535;
+}
+#answerbox{
+    color:          #D1D1D1;
+}
+#buttoninverse{
+    background:     #9757A8;
+}
+.sci {
+    background:     #FFC010;
+}
+
+
+

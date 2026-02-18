@@ -1,0 +1,109 @@
+* {
+    font-family: "Itim", cursive;
+    cursor:         default;
+    transition:     opacity     0.5s    ease-in-out,
+                    height      0.5s    ease-in-out, 
+                    width       0.5s    ease-in-out, 
+                    color       0.4s    ease-in-out, 
+                    background  0.4s    ease-in-out;   
+}
+html, body {
+    height:     100%;
+    width:      100%;
+    margin:     0;
+    padding:    0;
+}
+body {
+    background:         #AFC4DD;
+    display:            flex;
+    align-items:        center;
+    justify-content:    center;
+}
+
+.headerdiv {
+    transition:         color 0.05s ease-in-out;
+    width:              100%;
+    font-size:          3vh;
+    font-weight:        bold;
+
+    padding:            15px 0px 10px 0px;  /* top right bottom left */
+
+    display:            flex;
+    justify-content:    space-around;
+    align-items:        center;
+    text-align:         left;
+}
+.maindiv {
+    overflow:           hidden;
+    border-radius:      30px;
+
+    height:             90vh;
+    width:              45vh;
+
+    display:            flex;
+    flex-direction:     column;
+    align-items:        center;
+    justify-content:    center;
+}
+.displaydiv {
+    background:     none;
+    height:         25%;
+    width:          100%;
+}
+.buttonsdiv {
+    height:                     100%;
+    width:                      100%;
+    border-radius:              40px 40px 0 0 ;
+
+    display:                    grid;
+    grid-template-columns:      repeat(4,1fr);
+    gap:                        1.5%;
+
+    box-sizing:                 border-box;
+    padding:                    1% 5% 5% 5%;
+}
+.buttonclass{
+    font-size:          4vh;
+    font-weight:        bold;
+
+    border:             none;
+    height:             100%;
+    width:              100%;
+    border-radius:      20px;  
+    
+    cursor:             pointer;
+
+}
+#buttonequal, #buttoninverse{
+    grid-column:        span 2;
+}
+#equationbox, 
+#answerbox {
+    background:     none;
+    margin:         1;
+    overflow:       auto;
+
+    height:         50%;
+    width:          95%;
+
+    text-align:     right; 
+}
+#equationbox{
+    align-content:      end;
+    font-size:          200%;
+    font-weight:        bold;
+}
+#answerbox{
+    align-content:      start;
+    font-size:          large;
+    font-weight:        bold;
+}
+.sci {
+    overflow:   hidden;
+}
+.icon {
+    transition: color 0.02s ease-in-out;
+}
+.hidden {
+    display:    none;
+}

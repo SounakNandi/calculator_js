@@ -1,0 +1,84 @@
+<html>
+<head>
+    <title>Calculator 2.0</title>
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="stylesheet/main.css">
+    <link rel="stylesheet" href="stylesheet/darkMode.css" id="modeCss">
+</head>
+<body>
+    <div class="maindiv">
+        <div class="headerdiv">
+            Calculator
+            <span class="material-symbols-outlined" 
+                  style="cursor: pointer;"
+                  id="modebutton">
+                dark_mode
+            </span>
+        </div>
+
+        <div class="displaydiv">
+            <div id="equationbox"></div>
+            <div id="answerbox"></div>
+        </div>
+
+        <div class="buttonsdiv">
+            <span class="material-symbols-outlined"
+                  id="arrow" 
+                  style="
+                  grid-column:      span 4;
+                  align-self:       center;
+                  justify-self:     center;
+                  color:            #808080;
+                  cursor:           pointer;
+                  margin:           0%;
+                  ">
+                keyboard_arrow_up
+            </span>
+
+            <button class="buttonclass  sci"     id="buttoninverse"      >NORMAL </button>
+            <button class="buttonclass  sci"     id="buttonpi"           >PI     </button>
+            <button class="buttonclass  sci"     id="buttone"            >e      </button>
+            <button class="buttonclass  sci"     id="buttonlog"          >log    </button>
+            <button class="buttonclass  sci"     id="buttonsin"          >sin    </button>
+            <button class="buttonclass  sci"     id="buttoncos"          >cos    </button>
+            <button class="buttonclass  sci"     id="buttontan"          >tan    </button>
+            <button class="buttonclass  sci"     id="buttonfactorial"    >n!     </button>
+            <button class="buttonclass  sci"     id="buttonpower"        >xⁿ     </button>
+            <button class="buttonclass  sci"     id="button1stbracket"   >(      </button>
+            <button class="buttonclass  sci"     id="button2ndbracket"   >)      </button>
+            <button class="buttonclass"          id="buttonac"           >AC     </button>
+            <button class="buttonclass  icon"    id="buttondel"          ><i class="fa-solid fa-delete-left"></i></button>
+            <button class="buttonclass"          id="buttonmodulus"      >%      </button>
+            <button class="buttonclass"          id="buttondivide"       >÷      </button>
+            <button class="buttonclass"          id="buttonseven"        >7      </button>
+            <button class="buttonclass"          id="buttoneight"        >8      </button>
+            <button class="buttonclass"          id="buttonnine"         >9      </button>
+            <button class="buttonclass"          id="buttonmultiply"     >×      </button>
+            <button class="buttonclass"          id="buttonfour"         >4      </button>
+            <button class="buttonclass"          id="buttonfive"         >5      </button>
+            <button class="buttonclass"          id="buttonsix"          >6      </button>
+            <button class="buttonclass"          id="buttonplus"         >+      </button>
+            <button class="buttonclass"          id="buttonone"          >1      </button>
+            <button class="buttonclass"          id="buttontwo"          >2      </button>
+            <button class="buttonclass"          id="buttonthree"        >3      </button>
+            <button class="buttonclass"          id="buttonminus"        >-      </button>
+            <button class="buttonclass"          id="buttonpoint"        >.      </button>
+            <button class="buttonclass"          id="buttonzero"         >0      </button>
+            <button class="buttonclass  icon"    id="buttonequal"        ><i class="fa-solid fa-equals"></i></button>
+        </div>
+    </div>
+    
+    <script src="script/visual.js"></script>
+    <script src="script/index.js"></script>
+</body>
+</html>
